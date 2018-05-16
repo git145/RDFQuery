@@ -1,0 +1,423 @@
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix nobel: <http://data.nobelprize.org/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2012>
+        nobel:category  <http://data.nobelprize.org/resource/category/Economic_Sciences> ;
+        nobel:year      2012 .
+
+<http://data.nobelprize.org/resource/city/Washington%2C_DC>
+        rdfs:label  "Washington, DC" .
+
+<http://data.nobelprize.org/resource/laureate/730>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Chemistry/2000> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/city/Masterton> , <http://data.nobelprize.org/resource/country/New_Zealand> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/Drexel_Hill%2C_PA> , <http://data.nobelprize.org/resource/country/USA> ;
+        foaf:gender             "male" ;
+        foaf:name               "Alan G. MacDiarmid" .
+
+<http://data.nobelprize.org/resource/laureate/756>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Chemistry/2002> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/USA> , <http://data.nobelprize.org/resource/city/New_York%2C_NY> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/country/USA> , <http://data.nobelprize.org/resource/city/Richmond%2C_VA> ;
+        foaf:gender             "male" ;
+        foaf:name               "John B. Fenn" .
+
+<http://data.nobelprize.org/resource/city/Batley>
+        rdfs:label  "Batley" .
+
+<http://data.nobelprize.org/resource/laureate/728>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Physics/2000> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/USA> , <http://data.nobelprize.org/resource/city/Jefferson_City%2C_MO> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/country/USA> , <http://data.nobelprize.org/resource/city/Dallas%2C_TX> ;
+        foaf:gender             "male" ;
+        foaf:name               "Jack S. Kilby" .
+
+<http://data.nobelprize.org/resource/city/Sidney%2C_OH>
+        rdfs:label  "Sidney, OH" .
+
+<http://data.nobelprize.org/resource/city/Nairobi>
+        rdfs:label  "Nairobi" .
+
+<http://data.nobelprize.org/resource/nobelprize/Literature/2005>
+        nobel:category  <http://data.nobelprize.org/resource/category/Literature> ;
+        nobel:year      2005 .
+
+<http://data.nobelprize.org/resource/nobelprize/Physics/2009>
+        nobel:category  <http://data.nobelprize.org/resource/category/Physics> ;
+        nobel:year      2009 .
+
+<http://data.nobelprize.org/resource/city/Urbana%2C_IL>
+        rdfs:label  "Urbana, IL" .
+
+<http://data.nobelprize.org/resource/laureate/848>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2010> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/city/Batley> , <http://data.nobelprize.org/resource/country/United_Kingdom> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/country/United_Kingdom> , <http://data.nobelprize.org/resource/city/Cambridge> ;
+        foaf:gender             "male" ;
+        foaf:name               "Robert G. Edwards" .
+
+<http://data.nobelprize.org/resource/city/Kermanshah>
+        rdfs:label  "Kermanshah" .
+
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2004>
+        nobel:category  <http://data.nobelprize.org/resource/category/Chemistry> ;
+        nobel:year      2004 .
+
+<http://data.nobelprize.org/resource/nobelprize/Peace/2004>
+        nobel:category  <http://data.nobelprize.org/resource/category/Peace> ;
+        nobel:year      2004 .
+
+<http://data.nobelprize.org/resource/city/Dallas%2C_TX>
+        rdfs:label  "Dallas, TX" .
+
+<http://data.nobelprize.org/resource/city/Brooklyn%2C_NY>
+        rdfs:label  "Brooklyn, NY" .
+
+<http://data.nobelprize.org/resource/laureate/801>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Literature/2005> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/United_Kingdom> , <http://data.nobelprize.org/resource/city/London> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/London> , <http://data.nobelprize.org/resource/country/United_Kingdom> ;
+        foaf:gender             "male" ;
+        foaf:name               "Harold Pinter" .
+
+<http://data.nobelprize.org/resource/category/Peace>
+        rdfs:label  "Peace" .
+
+<http://data.nobelprize.org/resource/city/Moscow>
+        rdfs:label  "Moscow" .
+
+<http://data.nobelprize.org/resource/category/Economic_Sciences>
+        rdfs:label  "Economic Sciences" .
+
+<http://data.nobelprize.org/resource/laureate/883>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2012> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/city/Cambridge%2C_MA> , <http://data.nobelprize.org/resource/country/USA> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/Tucson%2C_AZ> , <http://data.nobelprize.org/resource/country/USA> ;
+        foaf:gender             "male" ;
+        foaf:name               "Lloyd S. Shapley" .
+
+<http://data.nobelprize.org/resource/city/Stockholm>
+        rdfs:label  "Stockholm" .
+
+<http://data.nobelprize.org/resource/country/Hungary>
+        rdfs:label  "Hungary" .
+
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2009>
+        nobel:category  <http://data.nobelprize.org/resource/category/Economic_Sciences> ;
+        nobel:year      2009 .
+
+<http://data.nobelprize.org/resource/laureate/868>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Literature/2011> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/city/Stockholm> , <http://data.nobelprize.org/resource/country/Sweden> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/country/Sweden> , <http://data.nobelprize.org/resource/city/Stockholm> ;
+        foaf:gender             "male" ;
+        foaf:name               "Tomas Tranströmer" .
+
+<http://data.nobelprize.org/resource/city/Tokyo>
+        rdfs:label  "Tokyo" .
+
+<http://data.nobelprize.org/resource/laureate/783>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Peace/2004> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/city/Nyeri> , <http://data.nobelprize.org/resource/country/Kenya> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/Nairobi> , <http://data.nobelprize.org/resource/country/Kenya> ;
+        foaf:gender             "female" ;
+        foaf:name               "Wangari Muta Maathai" .
+
+<http://data.nobelprize.org/resource/category/Physics>
+        rdfs:label  "Physics" .
+
+<http://data.nobelprize.org/resource/city/Cambridge%2C_MA>
+        rdfs:label  "Cambridge, MA" .
+
+<http://data.nobelprize.org/resource/country/Sweden>
+        rdfs:label  "Sweden" .
+
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2003>
+        nobel:category  <http://data.nobelprize.org/resource/category/Economic_Sciences> ;
+        nobel:year      2003 .
+
+<http://data.nobelprize.org/resource/nobelprize/Physics/2008>
+        nobel:category  <http://data.nobelprize.org/resource/category/Physics> ;
+        nobel:year      2008 .
+
+<http://data.nobelprize.org/resource/country/Japan>
+        rdfs:label  "Japan" .
+
+<http://data.nobelprize.org/resource/city/Blue_Point%2C_NY>
+        rdfs:label  "Blue Point, NY" .
+
+<http://data.nobelprize.org/resource/city/Minneapolis%2C_MN>
+        rdfs:label  "Minneapolis, MN" .
+
+<http://data.nobelprize.org/resource/city/Menin>
+        rdfs:label  "Menin" .
+
+<http://data.nobelprize.org/resource/city/Tours>
+        rdfs:label  "Tours" .
+
+<http://data.nobelprize.org/resource/city/London>
+        rdfs:label  "London" .
+
+<http://data.nobelprize.org/resource/city/New_York%2C_NY>
+        rdfs:label  "New York, NY" .
+
+<http://data.nobelprize.org/resource/nobelprize/Physics/2002>
+        nobel:category  <http://data.nobelprize.org/resource/category/Physics> ;
+        nobel:year      2002 .
+
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2003>
+        nobel:category  <http://data.nobelprize.org/resource/category/Physiology_or_Medicine> ;
+        nobel:year      2003 .
+
+<http://data.nobelprize.org/resource/city/Taunton%2C_MA>
+        rdfs:label  "Taunton, MA" .
+
+<http://data.nobelprize.org/resource/nobelprize/Literature/2011>
+        nobel:category  <http://data.nobelprize.org/resource/category/Literature> ;
+        nobel:year      2011 .
+
+<http://data.nobelprize.org/resource/city/Enterprise%2C_OR>
+        rdfs:label  "Enterprise, OR" .
+
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2010>
+        nobel:category  <http://data.nobelprize.org/resource/category/Economic_Sciences> ;
+        nobel:year      2010 .
+
+<http://data.nobelprize.org/resource/laureate/826>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Physics/2008> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/Japan> , <http://data.nobelprize.org/resource/city/Tokyo> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/Osaka> , <http://data.nobelprize.org/resource/country/Japan> ;
+        foaf:gender             "male" ;
+        foaf:name               "Yoichiro Nambu" .
+
+<http://data.nobelprize.org/resource/city/Tucson%2C_AZ>
+        rdfs:label  "Tucson, AZ" .
+
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2010>
+        nobel:category  <http://data.nobelprize.org/resource/category/Chemistry> ;
+        nobel:year      2010 .
+
+<http://data.nobelprize.org/resource/laureate/741>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Chemistry/2001> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/USA> , <http://data.nobelprize.org/resource/city/Taunton%2C_MA> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/Chesterfield%2C_MO> , <http://data.nobelprize.org/resource/country/USA> ;
+        foaf:gender             "male" ;
+        foaf:name               "William S. Knowles" .
+
+<http://data.nobelprize.org/resource/laureate/839>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Physics/2009> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/city/Amherst%2C_NS> , <http://data.nobelprize.org/resource/country/Canada> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/country/Canada> , <http://data.nobelprize.org/resource/city/Truro%2C_NS> ;
+        foaf:gender             "male" ;
+        foaf:name               "Willard S. Boyle" .
+
+<http://data.nobelprize.org/resource/country/Belgium>
+        rdfs:label  "Belgium" .
+
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2010>
+        nobel:category  <http://data.nobelprize.org/resource/category/Physiology_or_Medicine> ;
+        nobel:year      2010 .
+
+<http://data.nobelprize.org/resource/country/Kenya>
+        rdfs:label  "Kenya" .
+
+<http://data.nobelprize.org/resource/laureate/820>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2007> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/Russia> , <http://data.nobelprize.org/resource/city/Moscow> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/Minneapolis%2C_MN> , <http://data.nobelprize.org/resource/country/USA> ;
+        foaf:gender             "male" ;
+        foaf:name               "Leonid Hurwicz" .
+
+<http://data.nobelprize.org/resource/country/New_Zealand>
+        rdfs:label  "New Zealand" .
+
+<http://data.nobelprize.org/resource/city/Los_Angeles%2C_CA>
+        rdfs:label  "Los Angeles, CA" .
+
+<http://data.nobelprize.org/resource/country/USA>
+        rdfs:label  "USA" .
+
+<http://data.nobelprize.org/resource/city/Truro%2C_NS>
+        rdfs:label  "Truro, NS" .
+
+<http://data.nobelprize.org/resource/country/Philippines>
+        rdfs:label  "Philippines" .
+
+<http://data.nobelprize.org/resource/laureate/846>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2009> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/city/Los_Angeles%2C_CA> , <http://data.nobelprize.org/resource/country/USA> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/country/USA> , <http://data.nobelprize.org/resource/city/Bloomington%2C_IN> ;
+        foaf:gender             "female" ;
+        foaf:name               "Elinor Ostrom" .
+
+<http://data.nobelprize.org/resource/city/Bloomington%2C_IN>
+        rdfs:label  "Bloomington, IN" .
+
+<http://data.nobelprize.org/resource/laureate/761>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Literature/2002> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/Hungary> , <http://data.nobelprize.org/resource/city/Budapest> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/country/Hungary> , <http://data.nobelprize.org/resource/city/Budapest> ;
+        foaf:gender             "male" ;
+        foaf:name               "Imre Kertész" .
+
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2002>
+        nobel:category  <http://data.nobelprize.org/resource/category/Chemistry> ;
+        nobel:year      2002 .
+
+<http://data.nobelprize.org/resource/category/Physiology_or_Medicine>
+        rdfs:label  "Physiology or Medicine" .
+
+<http://data.nobelprize.org/resource/city/Cambridge>
+        rdfs:label  "Cambridge" .
+
+<http://data.nobelprize.org/resource/city/Drexel_Hill%2C_PA>
+        rdfs:label  "Drexel Hill, PA" .
+
+<http://data.nobelprize.org/resource/city/Amherst%2C_NS>
+        rdfs:label  "Amherst, NS" .
+
+<http://data.nobelprize.org/resource/city/San_Diego%2C_CA>
+        rdfs:label  "San Diego, CA" .
+
+<http://data.nobelprize.org/resource/laureate/781>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Chemistry/2004> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/USA> , <http://data.nobelprize.org/resource/city/Brooklyn%2C_NY> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/Deerfield%2C_MA> , <http://data.nobelprize.org/resource/country/USA> ;
+        foaf:gender             "male" ;
+        foaf:name               "Irwin Rose" .
+
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2007>
+        nobel:category  <http://data.nobelprize.org/resource/category/Economic_Sciences> ;
+        nobel:year      2007 .
+
+<http://data.nobelprize.org/resource/country/Persia_%28now_Iran%29>
+        rdfs:label  "Persia (now Iran)" .
+
+<http://data.nobelprize.org/resource/city/Nyeri>
+        rdfs:label  "Nyeri" .
+
+<http://data.nobelprize.org/resource/country/United_Kingdom>
+        rdfs:label  "United Kingdom" .
+
+<http://data.nobelprize.org/resource/laureate/753>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Physics/2002> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/USA> , <http://data.nobelprize.org/resource/city/Washington%2C_DC> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/Blue_Point%2C_NY> , <http://data.nobelprize.org/resource/country/USA> ;
+        foaf:gender             "male" ;
+        foaf:name               "Raymond Davis Jr." .
+
+<http://data.nobelprize.org/resource/laureate/794>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Chemistry/2005> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/city/Menin> , <http://data.nobelprize.org/resource/country/Belgium> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/country/France> , <http://data.nobelprize.org/resource/city/Tours> ;
+        foaf:gender             "male" ;
+        foaf:name               "Yves Chauvin" .
+
+<http://data.nobelprize.org/resource/city/Masterton>
+        rdfs:label  "Masterton" .
+
+<http://data.nobelprize.org/resource/nobelprize/Literature/2002>
+        nobel:category  <http://data.nobelprize.org/resource/category/Literature> ;
+        nobel:year      2002 .
+
+<http://data.nobelprize.org/resource/laureate/817>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Literature/2007> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/Persia_%28now_Iran%29> , <http://data.nobelprize.org/resource/city/Kermanshah> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/country/United_Kingdom> , <http://data.nobelprize.org/resource/city/London> ;
+        foaf:gender             "female" ;
+        foaf:name               "Doris Lessing" .
+
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2001>
+        nobel:category  <http://data.nobelprize.org/resource/category/Chemistry> ;
+        nobel:year      2001 .
+
+<http://data.nobelprize.org/resource/nobelprize/Physics/2000>
+        nobel:category  <http://data.nobelprize.org/resource/category/Physics> ;
+        nobel:year      2000 .
+
+<http://data.nobelprize.org/resource/category/Chemistry>
+        rdfs:label  "Chemistry" .
+
+<http://data.nobelprize.org/resource/nobelprize/Literature/2007>
+        nobel:category  <http://data.nobelprize.org/resource/category/Literature> ;
+        nobel:year      2007 .
+
+<http://data.nobelprize.org/resource/category/Literature>
+        rdfs:label  "Literature" .
+
+<http://data.nobelprize.org/resource/city/Jefferson_City%2C_MO>
+        rdfs:label  "Jefferson City, MO" .
+
+<http://data.nobelprize.org/resource/city/Swansea>
+        rdfs:label  "Swansea" .
+
+<http://data.nobelprize.org/resource/city/Osaka>
+        rdfs:label  "Osaka" .
+
+<http://data.nobelprize.org/resource/country/France>
+        rdfs:label  "France" .
+
+<http://data.nobelprize.org/resource/country/Russia>
+        rdfs:label  "Russia" .
+
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2000>
+        nobel:category  <http://data.nobelprize.org/resource/category/Chemistry> ;
+        nobel:year      2000 .
+
+<http://data.nobelprize.org/resource/laureate/857>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2010> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/USA> , <http://data.nobelprize.org/resource/city/Enterprise%2C_OR> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/Wilmette%2C_IL> , <http://data.nobelprize.org/resource/country/USA> ;
+        foaf:gender             "male" ;
+        foaf:name               "Dale T. Mortensen" .
+
+<http://data.nobelprize.org/resource/laureate/772>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2003> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/city/Swansea> , <http://data.nobelprize.org/resource/country/United_Kingdom> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/San_Diego%2C_CA> , <http://data.nobelprize.org/resource/country/USA> ;
+        foaf:gender             "male" ;
+        foaf:name               "Clive W.J. Granger" .
+
+<http://data.nobelprize.org/resource/country/Canada>
+        rdfs:label  "Canada" .
+
+<http://data.nobelprize.org/resource/city/Wilmette%2C_IL>
+        rdfs:label  "Wilmette, IL" .
+
+<http://data.nobelprize.org/resource/city/Deerfield%2C_MA>
+        rdfs:label  "Deerfield, MA" .
+
+<http://data.nobelprize.org/resource/city/Manila>
+        rdfs:label  "Manila" .
+
+<http://data.nobelprize.org/resource/city/Richmond%2C_VA>
+        rdfs:label  "Richmond, VA" .
+
+<http://data.nobelprize.org/resource/laureate/851>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Chemistry/2010> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/city/Springfield%2C_MA> , <http://data.nobelprize.org/resource/country/USA> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/Manila> , <http://data.nobelprize.org/resource/country/Philippines> ;
+        foaf:gender             "male" ;
+        foaf:name               "Richard F. Heck" .
+
+<http://data.nobelprize.org/resource/city/Springfield%2C_MA>
+        rdfs:label  "Springfield, MA" .
+
+<http://data.nobelprize.org/resource/laureate/764>
+        nobel:nobelPrize        <http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2003> ;
+        dbpedia-owl:birthPlace  <http://data.nobelprize.org/resource/country/USA> , <http://data.nobelprize.org/resource/city/Sidney%2C_OH> ;
+        dbpedia-owl:deathPlace  <http://data.nobelprize.org/resource/city/Urbana%2C_IL> , <http://data.nobelprize.org/resource/country/USA> ;
+        foaf:gender             "male" ;
+        foaf:name               "Paul C. Lauterbur" .
+
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2005>
+        nobel:category  <http://data.nobelprize.org/resource/category/Chemistry> ;
+        nobel:year      2005 .
+
+<http://data.nobelprize.org/resource/city/Budapest>
+        rdfs:label  "Budapest" .
+
+<http://data.nobelprize.org/resource/city/Chesterfield%2C_MO>
+        rdfs:label  "Chesterfield, MO" .
